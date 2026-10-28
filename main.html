@@ -1,16 +1,66 @@
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Movie Details</title>
+    <style>
+        body {
+            background-color: #1c1c1c;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .moviePic {
+            height: 400px;
+            width: 270px;
+            opacity: 0.9;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+
+        .movieDetail {
+            position: relative;
+            top: 20px;
+            width: 60%;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 0 auto;
+            color: #dddddd;
+        }
+
+        .movieTitle {
+            color: #f5c518;
+            font-size: 32px;
+        }
+
+        .movieRating {
+            color: #f5c518;
+            font-size: 20px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1 class="movieTitle">The Shawshank Redemption</h1>
 
+    <img
+        class="moviePic"
+        src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmRmMC00ZWE3LWJmNjEtOTEzZTM2YzYxNzYxXkEyXkFqcGc@._V1_.jpg"
+        alt="The Shawshank Redemption movie poster"
+    >
+
+    <p class="movieRating">IMDb Rating: 9.3/10</p>
+
+    <p class="movieDetail">
+        Two imprisoned men bond over a number of years, finding solace and
+        eventual redemption through acts of common decency. This inspiring
+        drama explores hope, friendship, and the human spirit.
+    </p>
 </body>
-
 </html>
